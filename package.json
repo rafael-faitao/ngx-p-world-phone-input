@@ -8,6 +8,22 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-faitao/ngx-world-phone-input.git"
+  },
+  "keywords": [
+    "phone-input",
+    "international",
+    "global",
+    "telephone",
+    "angular",
+    "primeng",
+    "phone-mask",
+    "mask"
+  ],
+  "author": "rafael-faitao",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
