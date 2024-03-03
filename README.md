@@ -11,7 +11,7 @@ An Angular package designed to help international phone number inputting in angu
 
 | Library/Framework |  Angular | PrimeNG
 |--------------------|-------------|-------------|
-| ngx-p-world-phone-input| 16.2.0 | 16.9.1 
+| ngx-p-world-phone-input| 16.2.0 | 16.2.0
 
 ## Installation
 
