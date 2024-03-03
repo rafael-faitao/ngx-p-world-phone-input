@@ -54,15 +54,22 @@ modeledPhone: any = {
 #### Properties 
 Name | Type | Default | Description
 |---|---|---|---
-| [ddi] | string | "55" | The ddi / phone code for the selected country. 
-| [phone] | any | null | The modeled phone number (without ddi)
-| [language] | string | "pt-BR" | The language to use (currently supports only pt-BR and en-US)
+| ddi | string | "55" | The ddi / phone code for the selected country. 
+| phone | any | null | The modeled phone number (without ddi)
+| language | string | "pt-BR" | The language to use (currently supports only pt-BR and en-US)
 
 #### Events
 Name | Type | Description
 |---|---|---
-| (ddiChange) | EventEmitter<any> | Fires when ddi selection changes
-| (phoneChange) | EventEmitter<any> | Fires when phoneNumber changes 
+| ddiChange | EventEmitter<any> | Fires when ddi selection changes
+| phoneChange | EventEmitter<any> | Fires when phoneNumber changes 
+
+## Todo (Future Projects)
+- Enable visual feedback on invalid state
+- Add validation options
+- Add / Remove countries as an option
+- Add support for other languages
+- Add documentation on styling
 
 ## Library Contributions
 
