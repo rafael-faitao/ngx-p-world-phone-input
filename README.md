@@ -1,8 +1,11 @@
 # Angular/PrimeNG World Phone Number Input (NgxPWorldPhoneInput)
 
+[![npm version](https://badge.fury.io/js/ngx-p-world-phone-input.svg)](https://badge.fury.io/js/ngx-p-world-phone-input) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/ngx-p-world-phone-input)
+
 An Angular package designed to help international phone number inputting in angular applications.It uses PrimeNG (https://primeng.org/) components as base and FlagCDN (https://flagcdn.com/) as flag image provider.
 
-[![npm version](https://badge.fury.io/js/ngx-p-world-phone-input.svg)](https://badge.fury.io/js/ngx-p-world-phone-input) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/ngx-p-world-phone-input)
+
+![image](https://github.com/rafael-faitao/ngx-p-world-phone-input/assets/14910850/4a78d361-448d-498a-aa6e-e2ab982e3359)
 
 ### Version Compatibility
 
@@ -65,3 +68,4 @@ Name | Type | Description
 FlagCDN for flag package
 [https://flagcdn.com/]
 
+@Webcat12345 for original idea / inspiration ([ngx-int-tel-input](https://github.com/webcat12345/ngx-intl-tel-input#readme))
