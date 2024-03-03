@@ -1,16 +1,21 @@
-<div class="phone-input container">
-    <p-dropdown id="countrypicker" [options]="countries" [(ngModel)]="currentCountry" (ngModelChange)="ddiChange.next(currentCountry.ddi)" [optionLabel]="language" [filter]="true" [filterBy]="language"  placeholder="Select a Country">
+<div class="phone-input container" >
+    <p-dropdown id="countrypicker" [options]="countries" [(ngModel)]="currentCountry" (ngModelChange)="ddiChange.next(currentCountry.ddi)" [optionLabel]="language" [filter]="true" [filterBy]="language" [emptyFilterMessage]="emptyFilterMessage" >
         <ng-template pTemplate="selectedItem">
             <div class="country-item country-item-value" *ngIf="currentCountry">
-                <img src="https://flagcdn.com/32x24/{{currentCountry.code}}.png" [class]="'iti__flag iti__' + currentCountry.code.toLowerCase()" />
+                <img src="https://flagcdn.com/32x24/{{currentCountry.code}}.png" class="flag" />
                 <span class="cml-1">{{currentCountry.ddi}}</span>
             </div>
         </ng-template>
         <ng-template let-country pTemplate="item">
             <div class="country-item">
-                <img src="https://flagcdn.com/32x24/{{country.code}}.png" class="iti__flag" />
+                <img src="https://flagcdn.com/32x24/{{country.code}}.png" class="flag" />
                 <div class="cml-1">{{country[language]}}</div>
                 <div class="cml-1 opacity-5">{{country.ddi}}</div>
+            </div>
+        </ng-template>
+        <ng-template let-country pTemplate="emptyfilter">
+            <div class="empty">
+                {{emptyFilterMessage}}
             </div>
         </ng-template>
     </p-dropdown>

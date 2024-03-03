@@ -24,6 +24,11 @@ export class WorldPhoneInputComponent implements OnInit  {
   @Input()
   language:string = 'ptBr';
 
+  emptyFilterMessage = 'Nenhum país encontrado';
+
+  @Input()
+  applyStyle = false;
+
   @Output()
   ddiChange: EventEmitter<any> = new EventEmitter<any>();
 
@@ -78,14 +83,14 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "999-999-9999",
       "name": "Anguilla",
       "ptBr": "Anguila",
-      "code": "as"
+      "code": "ai"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Antigua and Barbuda",
       "ptBr": "Antígua e Barbuda",
-      "code": "as"
+      "code": "ag"
     },
     {
       "ddi": "54",
@@ -134,7 +139,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "999-999-9999",
       "name": "Bahamas",
       "ptBr": "Bahamas",
-      "code": "as"
+      "code": "bs"
     },
     {
       "ddi": "973",
@@ -190,7 +195,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "999-999-9999",
       "name": "Bermuda",
       "ptBr": "Bermudas",
-      "code": "as"
+      "code": "bm"
     },
     {
       "ddi": "975",
@@ -351,7 +356,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "9 9999 9999",
       "name": "Cocos (Keeling) Islands",
       "ptBr": "Ilhas Cocos (Keeling)",
-      "code": "au"
+      "code": "cc"
     },
     {
       "ddi": "57",
@@ -1646,7 +1651,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "999-999-9999",
       "name": "United States",
       "ptBr": "Estados Unidos",
-      "code": "as"
+      "code": "us"
     },
     {
       "ddi": "598",
@@ -1674,7 +1679,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       "mask": "99 9999 9999",
       "name": "Vatican City (Città del Vaticano)",
       "ptBr": "Cidade do Vaticano (Città del Vaticano)",
-      "code": "it"
+      "code": "va"
     },
     {
       "ddi": "58",
@@ -1767,6 +1772,10 @@ export class WorldPhoneInputComponent implements OnInit  {
     }
     else if (!this.currentCountry) {
       this.ddiChange.next("55");
+    }
+
+    if (this.language !== 'ptBr') {
+      this.emptyFilterMessage = 'No country found';
     }
   }
 

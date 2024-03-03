@@ -1,24 +1,66 @@
-# WorldPhoneInput
+# Angular/PrimeNG World Phone Number Input (NgxPWorldPhoneInput)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+An Angular package designed to help international phone number inputting in angular applications.It uses PrimeNG (https://primeng.org/) components as base and FlagCDN (https://flagcdn.com/) as flag image provider.
 
-## Code scaffolding
 
-Run `ng generate component component-name --project world-phone-input` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project world-phone-input`.
-> Note: Don't forget to add `--project world-phone-input` or else it will be added to the default project in your `angular.json` file. 
+### Version Compatibility
 
-## Build
+| Library/Framework |  Angular | PrimeNG
+|--------------------|-------------|-------------|
+| ngx-p-world-phone-input| 16.2.0 | 16.9.1 
 
-Run `ng build world-phone-input` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Publishing
+#### Install Command
+```shell
+# npm i ngx-p-world-phone-input
+```
 
-After building your library with `ng build world-phone-input`, go to the dist folder `cd dist/world-phone-input` and run `npm publish`.
+## Usage
 
-## Running unit tests
+#### Importing
 
-Run `ng test world-phone-input` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Import the `WorldPhoneInputModule` from this package into your app.module or the desired module
 
-## Further help
+```angular
+import { WorldPhoneInputModule } from 'ngx-p-world-phone-input';
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+#### Use Example
+
+```typescript
+<ngx-world-phone-input>
+
+</ngx-world-phone-input>
+```
+
+## Api
+
+#### Properties 
+Name | Type | Default | Description
+|---|---|---|---
+| [ddi] | string | "55" | The ddi / phone code for the selected country. 
+| [phone] | any | null | The modeled phone number (without ddi)
+
+#### Events
+Name | Type | Description
+|---|---|---
+| (ddiChange) | EventEmitter<any> | Fires when ddi selection changes
+| (phoneChange) | EventEmitter<any> | Fires when phoneNumber changes 
+
+## Library Contributions
+
+- Fork repo.
+- Update ./projects/ngx-intl-tel-input
+- Build / test library.
+- Update ./src/app with new functionality.
+- Update README.md
+- Pull request.
+
+
+## Special Thanks
+
+FlagCDN for flag package
+[https://flagcdn.com/]
+
