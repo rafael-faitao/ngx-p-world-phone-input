@@ -22,7 +22,7 @@ export class WorldPhoneInputComponent implements OnInit  {
   phone: any = '';
 
   @Input()
-  language:string = 'ptBr';
+  language:string = 'pt-BR';
 
   emptyFilterMessage = 'Nenhum país encontrado';
 
@@ -40,1702 +40,1945 @@ export class WorldPhoneInputComponent implements OnInit  {
       "ddi": "93",
       "mask": "99 999 9999",
       "name": "Afghanistan (افغانستان)",
-      "ptBr": "Afeganistão (افغانستان)",
-      "code": "af"
+      "pt-BR": "Afeganistão (افغانستان)",
+      "code": "af",
+      "en-US": "Afghanistan (افغانستان)"
     },
     {
       "ddi": "355",
       "mask": "99 999 999",
       "name": "Albania (Shqipëri)",
-      "ptBr": "Albânia (Shqipëri)",
-      "code": "al"
+      "pt-BR": "Albânia (Shqipëri)",
+      "code": "al",
+      "en-US": "Albania (Shqipëri)"
     },
     {
       "ddi": "213",
       "mask": "99 99 99 99",
       "name": "Algeria (الجزائر)",
-      "ptBr": "Argélia (الجزائر)",
-      "code": "dz"
+      "pt-BR": "Argélia (الجزائر)",
+      "code": "dz",
+      "en-US": "Algeria (الجزائر)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "American Samoa",
-      "ptBr": "Samoa Americana",
-      "code": "as"
+      "pt-BR": "Samoa Americana",
+      "code": "as",
+      "en-US": "American Samoa"
     },
     {
       "ddi": "376",
       "mask": "999 999",
       "name": "Andorra",
-      "ptBr": "Andorra",
-      "code": "ad"
+      "pt-BR": "Andorra",
+      "code": "ad",
+      "en-US": "Andorra"
     },
     {
       "ddi": "244",
       "mask": "999 999 999",
       "name": "Angola",
-      "ptBr": "Angola",
-      "code": "ao"
+      "pt-BR": "Angola",
+      "code": "ao",
+      "en-US": "Angola"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Anguilla",
-      "ptBr": "Anguila",
-      "code": "ai"
+      "pt-BR": "Anguila",
+      "code": "ai",
+      "en-US": "Anguilla"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Antigua and Barbuda",
-      "ptBr": "Antígua e Barbuda",
-      "code": "ag"
+      "pt-BR": "Antígua e Barbuda",
+      "code": "ag",
+      "en-US": "Antigua and Barbuda"
     },
     {
       "ddi": "54",
       "mask": "99 9999-9999",
       "name": "Argentina",
-      "ptBr": "Argentina",
-      "code": "ar"
+      "pt-BR": "Argentina",
+      "code": "ar",
+      "en-US": "Argentina"
     },
     {
       "ddi": "374",
       "mask": "99 999999",
       "name": "Armenia (Հայաստան)",
-      "ptBr": "Armênia (Հայաստան)",
-      "code": "am"
+      "pt-BR": "Armênia (Հայաստան)",
+      "code": "am",
+      "en-US": "Armenia (Հայաստան)"
     },
     {
       "ddi": "297",
       "mask": "999 9999",
       "name": "Aruba",
-      "ptBr": "Aruba",
-      "code": "aw"
+      "pt-BR": "Aruba",
+      "code": "aw",
+      "en-US": "Aruba"
     },
     {
       "ddi": "61",
       "mask": "9 9999 9999",
       "name": "Australia",
-      "ptBr": "Austrália",
-      "code": "au"
+      "pt-BR": "Austrália",
+      "code": "au",
+      "en-US": "Australia"
     },
     {
       "ddi": "43",
       "mask": "9 999999999",
       "name": "Austria (Österreich)",
-      "ptBr": "Áustria (Österreich)",
-      "code": "at"
+      "pt-BR": "Áustria (Österreich)",
+      "code": "at",
+      "en-US": "Austria (Österreich)"
     },
     {
       "ddi": "994",
       "mask": "99 999 99 99",
       "name": "Azerbaijan (Azərbaycan)",
-      "ptBr": "Azerbaijão (Azərbaycan)",
-      "code": "az"
+      "pt-BR": "Azerbaijão (Azərbaycan)",
+      "code": "az",
+      "en-US": "Azerbaijan (Azərbaycan)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Bahamas",
-      "ptBr": "Bahamas",
-      "code": "bs"
+      "pt-BR": "Bahamas",
+      "code": "bs",
+      "en-US": "Bahamas"
     },
     {
       "ddi": "973",
       "mask": "9999 9999",
       "name": "Bahrain (البحرين)",
-      "ptBr": "Bahrain (البحرين)",
-      "code": "bh"
+      "pt-BR": "Bahrain (البحرين)",
+      "code": "bh",
+      "en-US": "Bahrain (البحرين)"
     },
     {
       "ddi": "880",
       "mask": "9-9999999",
       "name": "Bangladesh (বাংলাদেশ)",
-      "ptBr": "Bangladesh (বাংলাদেশ)",
-      "code": "bd"
+      "pt-BR": "Bangladesh (বাংলাদেশ)",
+      "code": "bd",
+      "en-US": "Bangladesh (বাংলাদেশ)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Barbados",
-      "ptBr": "Barbados",
-      "code": "as"
+      "pt-BR": "Barbados",
+      "code": "as",
+      "en-US": "Barbados"
     },
     {
       "ddi": "375",
       "mask": "999 99-99-99",
       "name": "Belarus (Беларусь)",
-      "ptBr": "Bielorrússia (Беларусь)",
-      "code": "by"
+      "pt-BR": "Bielorrússia (Беларусь)",
+      "code": "by",
+      "en-US": "Belarus (Беларусь)"
     },
     {
       "ddi": "32",
       "mask": "99 99 99 99",
       "name": "Belgium (België)",
-      "ptBr": "Bélgica (België)",
-      "code": "be"
+      "pt-BR": "Bélgica (België)",
+      "code": "be",
+      "en-US": "Belgium (België)"
     },
     {
       "ddi": "501",
       "mask": "999-9999",
       "name": "Belize",
-      "ptBr": "Belize",
-      "code": "bz"
+      "pt-BR": "Belize",
+      "code": "bz",
+      "en-US": "Belize"
     },
     {
       "ddi": "229",
       "mask": "99 99 99 99",
       "name": "Benin (Bénin)",
-      "ptBr": "Benin (Bénin)",
-      "code": "bj"
+      "pt-BR": "Benin (Bénin)",
+      "code": "bj",
+      "en-US": "Benin (Bénin)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Bermuda",
-      "ptBr": "Bermudas",
-      "code": "bm"
+      "pt-BR": "Bermudas",
+      "code": "bm",
+      "en-US": "Bermuda"
     },
     {
       "ddi": "975",
       "mask": "9 999 999",
       "name": "Bhutan (འབྲུག)",
-      "ptBr": "Butão (འབྲུག)",
-      "code": "bt"
+      "pt-BR": "Butão (འབྲུག)",
+      "code": "bt",
+      "en-US": "Bhutan (འབྲུག)"
     },
     {
       "ddi": "591",
       "mask": "9 9999999",
       "name": "Bolivia",
-      "ptBr": "Bolívia",
-      "code": "bo"
+      "pt-BR": "Bolívia",
+      "code": "bo",
+      "en-US": "Bolivia"
     },
     {
       "ddi": "387",
       "mask": "99 999-999",
       "name": "Bosnia and Herzegovina (Босна и Херцеговина)",
-      "ptBr": "Bósnia e Herzegovina (Босна и Херцеговина)",
-      "code": "ba"
+      "pt-BR": "Bósnia e Herzegovina (Босна и Херцеговина)",
+      "code": "ba",
+      "en-US": "Bosnia and Herzegovina (Босна и Херцеговина)"
     },
     {
       "ddi": "267",
       "mask": "999 9999",
       "name": "Botswana",
-      "ptBr": "Botsuana",
-      "code": "bw"
+      "pt-BR": "Botsuana",
+      "code": "bw",
+      "en-US": "Botswana"
     },
     {
       "ddi": "55",
       "mask": "(99) 99999-9999",
       "name": "Brazil (Brasil)",
-      "ptBr": "Brasil (Brasil)",
-      "code": "br"
+      "pt-BR": "Brasil (Brasil)",
+      "code": "br",
+      "en-US": "Brazil (Brasil)"
     },
     {
       "ddi": "246",
       "mask": "999 9999",
       "name": "British Indian Ocean Territory",
-      "ptBr": "Território Britânico do Oceano Índico",
-      "code": "io"
+      "pt-BR": "Território Britânico do Oceano Índico",
+      "code": "io",
+      "en-US": "British Indian Ocean Territory"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "British Virgin Islands",
-      "ptBr": "Ilhas Virgens Britânicas",
-      "code": "as"
+      "pt-BR": "Ilhas Virgens Britânicas",
+      "code": "as",
+      "en-US": "British Virgin Islands"
     },
     {
       "ddi": "673",
       "mask": "999 9999",
       "name": "Brunei",
-      "ptBr": "Brunei",
-      "code": "bn"
+      "pt-BR": "Brunei",
+      "code": "bn",
+      "en-US": "Brunei"
     },
     {
       "ddi": "359",
       "mask": "9 999 999",
       "name": "Bulgaria (България)",
-      "ptBr": "Bulgária (България)",
-      "code": "bg"
+      "pt-BR": "Bulgária (България)",
+      "code": "bg",
+      "en-US": "Bulgaria (България)"
     },
     {
       "ddi": "226",
       "mask": "99 99 99 99",
       "name": "Burkina Faso",
-      "ptBr": "Burkina Faso",
-      "code": "bf"
+      "pt-BR": "Burkina Faso",
+      "code": "bf",
+      "en-US": "Burkina Faso"
     },
     {
       "ddi": "257",
       "mask": "99 99 99 99",
       "name": "Burundi (Uburundi)",
-      "ptBr": "Burundi (Uburundi)",
-      "code": "bi"
+      "pt-BR": "Burundi (Uburundi)",
+      "code": "bi",
+      "en-US": "Burundi (Uburundi)"
     },
     {
       "ddi": "855",
       "mask": "99 999 999",
       "name": "Cambodia (កម្ពុជា)",
-      "ptBr": "Camboja (កម្ពុជា)",
-      "code": "kh"
+      "pt-BR": "Camboja (កម្ពុជា)",
+      "code": "kh",
+      "en-US": "Cambodia (កម្ពុជា)"
     },
     {
       "ddi": "237",
       "mask": "9 99 99 99 99",
       "name": "Cameroon (Cameroun)",
-      "ptBr": "Camarões (Cameroun)",
-      "code": "cm"
+      "pt-BR": "Camarões (Cameroun)",
+      "code": "cm",
+      "en-US": "Cameroon (Cameroun)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Canada",
-      "ptBr": "Canadá",
-      "code": "as"
+      "pt-BR": "Canadá",
+      "code": "as",
+      "en-US": "Canada"
     },
     {
       "ddi": "238",
       "mask": "999 99 99",
       "name": "Cape Verde (Kabu Verdi)",
-      "ptBr": "Cabo Verde (Kabu Verdi)",
-      "code": "cv"
+      "pt-BR": "Cabo Verde (Kabu Verdi)",
+      "code": "cv",
+      "en-US": "Cape Verde (Kabu Verdi)"
     },
     {
       "ddi": "599",
       "mask": "999 9999",
       "name": "Caribbean Netherlands",
-      "ptBr": "Países Baixos Caribenhos",
-      "code": "bq"
+      "pt-BR": "Países Baixos Caribenhos",
+      "code": "bq",
+      "en-US": "Caribbean Netherlands"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Cayman Islands",
-      "ptBr": "Ilhas Cayman",
-      "code": "as"
+      "pt-BR": "Ilhas Cayman",
+      "code": "as",
+      "en-US": "Cayman Islands"
     },
     {
       "ddi": "236",
       "mask": "99 99 99 99",
       "name": "Central African Republic (République centrafricaine)",
-      "ptBr": "República Centro-Africana (République centrafricaine)",
-      "code": "cf"
+      "pt-BR": "República Centro-Africana (République centrafricaine)",
+      "code": "cf",
+      "en-US": "Central African Republic (République centrafricaine)"
     },
     {
       "ddi": "235",
       "mask": "99 99 99 99",
       "name": "Chad (Tchad)",
-      "ptBr": "Chade (Tchad)",
-      "code": "td"
+      "pt-BR": "Chade (Tchad)",
+      "code": "td",
+      "en-US": "Chad (Tchad)"
     },
     {
       "ddi": "56",
       "mask": "9 9999 9999",
       "name": "Chile",
-      "ptBr": "Chile",
-      "code": "cl"
+      "pt-BR": "Chile",
+      "code": "cl",
+      "en-US": "Chile"
     },
     {
       "ddi": "86",
       "mask": "99 9999 9999",
       "name": "China (中国)",
-      "ptBr": "China (中国)",
-      "code": "cn"
+      "pt-BR": "China (中国)",
+      "code": "cn",
+      "en-US": "China (中国)"
     },
     {
       "ddi": "61",
       "mask": "9 9999 9999",
       "name": "Christmas Island",
-      "ptBr": "Ilha Christmas",
-      "code": "au"
+      "pt-BR": "Ilha Christmas",
+      "code": "au",
+      "en-US": "Christmas Island"
     },
     {
       "ddi": "61",
       "mask": "9 9999 9999",
       "name": "Cocos (Keeling) Islands",
-      "ptBr": "Ilhas Cocos (Keeling)",
-      "code": "cc"
+      "pt-BR": "Ilhas Cocos (Keeling)",
+      "code": "cc",
+      "en-US": "Cocos (Keeling) Islands"
     },
     {
       "ddi": "57",
       "mask": "999 9999999",
       "name": "Colombia",
-      "ptBr": "Colômbia",
-      "code": "co"
+      "pt-BR": "Colômbia",
+      "code": "co",
+      "en-US": "Colombia"
     },
     {
       "ddi": "269",
       "mask": "999 99 99",
       "name": "Comoros (جزر القمر)",
-      "ptBr": "Comores (جزر القمر)",
-      "code": "km"
+      "pt-BR": "Comores (جزر القمر)",
+      "code": "km",
+      "en-US": "Comoros (جزر القمر)"
     },
     {
       "ddi": "243",
       "mask": "99 99999",
       "name": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
-      "ptBr": "Congo (RDC) (Jamhuri ya Kidemokrasia ya Kongo)",
-      "code": "cd"
+      "pt-BR": "Congo (RDC) (Jamhuri ya Kidemokrasia ya Kongo)",
+      "code": "cd",
+      "en-US": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)"
     },
     {
       "ddi": "242",
       "mask": "99 999 9999",
       "name": "Congo (Republic) (Congo-Brazzaville)",
-      "ptBr": "Congo (República) (Congo-Brazzaville)",
-      "code": "cg"
+      "pt-BR": "Congo (República) (Congo-Brazzaville)",
+      "code": "cg",
+      "en-US": "Congo (Republic) (Congo-Brazzaville)"
     },
     {
       "ddi": "682",
       "mask": "99 999",
       "name": "Cook Islands",
-      "ptBr": "Ilhas Cook",
-      "code": "ck"
+      "pt-BR": "Ilhas Cook",
+      "code": "ck",
+      "en-US": "Cook Islands"
     },
     {
       "ddi": "506",
       "mask": "9999 9999",
       "name": "Costa Rica",
-      "ptBr": "Costa Rica",
-      "code": "cr"
+      "pt-BR": "Costa Rica",
+      "code": "cr",
+      "en-US": "Costa Rica"
     },
     {
       "ddi": "225",
       "mask": "99 99 9 99999",
       "name": "Côte d’Ivoire",
-      "ptBr": "Costa do Marfim",
-      "code": "ci"
+      "pt-BR": "Costa do Marfim",
+      "code": "ci",
+      "en-US": "Côte d’Ivoire"
     },
     {
       "ddi": "385",
       "mask": "9 9999 999",
       "name": "Croatia (Hrvatska)",
-      "ptBr": "Croácia (Hrvatska)",
-      "code": "hr"
+      "pt-BR": "Croácia (Hrvatska)",
+      "code": "hr",
+      "en-US": "Croatia (Hrvatska)"
     },
     {
       "ddi": "53",
       "mask": "9 9999999",
       "name": "Cuba",
-      "ptBr": "Cuba",
-      "code": "cu"
+      "pt-BR": "Cuba",
+      "code": "cu",
+      "en-US": "Cuba"
     },
     {
       "ddi": "599",
       "mask": "9 999 9999",
       "name": "Curaçao",
-      "ptBr": "Curaçao",
-      "code": "bq"
+      "pt-BR": "Curaçao",
+      "code": "bq",
+      "en-US": "Curaçao"
     },
     {
       "ddi": "357",
       "mask": "99 999999",
       "name": "Cyprus (Κύπρος)",
-      "ptBr": "Chipre (Κύπρος)",
-      "code": "cy"
+      "pt-BR": "Chipre (Κύπρος)",
+      "code": "cy",
+      "en-US": "Cyprus (Κύπρος)"
     },
     {
       "ddi": "420",
       "mask": "999 999 999",
       "name": "Czech Republic (Česká republika)",
-      "ptBr": "República Tcheca (Česká republika)",
-      "code": "cz"
+      "pt-BR": "República Tcheca (Česká republika)",
+      "code": "cz",
+      "en-US": "Czech Republic (Česká republika)"
     },
     {
       "ddi": "45",
       "mask": "99 99 99 99",
       "name": "Denmark (Danmark)",
-      "ptBr": "Dinamarca (Danmark)",
-      "code": "dk"
+      "pt-BR": "Dinamarca (Danmark)",
+      "code": "dk",
+      "en-US": "Denmark (Danmark)"
     },
     {
       "ddi": "253",
       "mask": "99 99 99 99",
       "name": "Djibouti",
-      "ptBr": "Djibouti",
-      "code": "dj"
+      "pt-BR": "Djibouti",
+      "code": "dj",
+      "en-US": "Djibouti"
     },
     {
       "ddi": "1767",
       "mask": "999-999-9999",
       "name": "Dominica",
-      "ptBr": "Dominica",
-      "code": "dm"
+      "pt-BR": "Dominica",
+      "code": "dm",
+      "en-US": "Dominica"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Dominican Republic (República Dominicana)",
-      "ptBr": "República Dominicana (República Dominicana)",
-      "code": "as"
+      "pt-BR": "República Dominicana (República Dominicana)",
+      "code": "as",
+      "en-US": "Dominican Republic (República Dominicana)"
     },
     {
       "ddi": "593",
       "mask": "9-999-9999",
       "name": "Ecuador",
-      "ptBr": "Equador",
-      "code": "ec"
+      "pt-BR": "Equador",
+      "code": "ec",
+      "en-US": "Ecuador"
     },
     {
       "ddi": "20",
       "mask": "9 99999999",
       "name": "Egypt (مصر)",
-      "ptBr": "Egito (مصر)",
-      "code": "eg"
+      "pt-BR": "Egito (مصر)",
+      "code": "eg",
+      "en-US": "Egypt (مصر)"
     },
     {
       "ddi": "503",
       "mask": "9999 9999",
       "name": "El Salvador",
-      "ptBr": "El Salvador",
-      "code": "sv"
+      "pt-BR": "El Salvador",
+      "code": "sv",
+      "en-US": "El Salvador"
     },
     {
       "ddi": "240",
       "mask": "999 999 999",
       "name": "Equatorial Guinea (Guinea Ecuatorial)",
-      "ptBr": "Guiné Equatorial (Guiné Equatorial)",
-      "code": "gq"
+      "pt-BR": "Guiné Equatorial (Guiné Equatorial)",
+      "code": "gq",
+      "en-US": "Equatorial Guinea (Guinea Ecuatorial)"
     },
     {
       "ddi": "291",
       "mask": "9 999 999",
       "name": "Eritrea",
-      "ptBr": "Eritreia",
-      "code": "er"
+      "pt-BR": "Eritreia",
+      "code": "er",
+      "en-US": "Eritrea"
     },
     {
       "ddi": "372",
       "mask": "999 9999",
       "name": "Estonia (Eesti)",
-      "ptBr": "Estônia (Eesti)",
-      "code": "ee"
+      "pt-BR": "Estônia (Eesti)",
+      "code": "ee",
+      "en-US": "Estonia (Eesti)"
     },
     {
       "ddi": "251",
       "mask": "99 999 9999",
       "name": "Ethiopia",
-      "ptBr": "Etiópia",
-      "code": "et"
+      "pt-BR": "Etiópia",
+      "code": "et",
+      "en-US": "Ethiopia"
     },
     {
       "ddi": "500",
       "mask": "99999",
       "name": "Falkland Islands (Islas Malvinas)",
-      "ptBr": "Ilhas Malvinas (Islas Malvinas)",
-      "code": "fk"
+      "pt-BR": "Ilhas Malvinas (Islas Malvinas)",
+      "code": "fk",
+      "en-US": "Falkland Islands (Islas Malvinas)"
     },
     {
       "ddi": "298",
       "mask": "999999",
       "name": "Faroe Islands (Føroyar)",
-      "ptBr": "Ilhas Faroé (Føroyar)",
-      "code": "fo"
+      "pt-BR": "Ilhas Faroé (Føroyar)",
+      "code": "fo",
+      "en-US": "Faroe Islands (Føroyar)"
     },
     {
       "ddi": "679",
       "mask": "999 9999",
       "name": "Fiji",
-      "ptBr": "Fiji",
-      "code": "fj"
+      "pt-BR": "Fiji",
+      "code": "fj",
+      "en-US": "Fiji"
     },
     {
       "ddi": "358",
       "mask": "99 9999999",
       "name": "Finland (Suomi)",
-      "ptBr": "Finlândia (Suomi)",
-      "code": "fi"
+      "pt-BR": "Finlândia (Suomi)",
+      "code": "fi",
+      "en-US": "Finland (Suomi)"
     },
     {
       "ddi": "33",
       "mask": "9 99 99 99 99",
       "name": "France",
-      "ptBr": "França",
-      "code": "fr"
+      "pt-BR": "França",
+      "code": "fr",
+      "en-US": "France"
     },
     {
       "ddi": "594",
       "mask": "999 99 99 99",
       "name": "French Guiana (Guyane française)",
-      "ptBr": "Guiana Francesa (Guyane française)",
-      "code": "gf"
+      "pt-BR": "Guiana Francesa (Guyane française)",
+      "code": "gf",
+      "en-US": "French Guiana (Guyane française)"
     },
     {
       "ddi": "689",
       "mask": "99 99 99 99",
       "name": "French Polynesia (Polynésie française)",
-      "ptBr": "Polinésia Francesa (Polynésie française)",
-      "code": "pf"
+      "pt-BR": "Polinésia Francesa (Polynésie française)",
+      "code": "pf",
+      "en-US": "French Polynesia (Polynésie française)"
     },
     {
       "ddi": "241",
       "mask": "99 99 99 99",
       "name": "Gabon",
-      "ptBr": "Gabão",
-      "code": "ga"
+      "pt-BR": "Gabão",
+      "code": "ga",
+      "en-US": "Gabon"
     },
     {
       "ddi": "220",
       "mask": "999 9999",
       "name": "Gambia",
-      "ptBr": "Gâmbia",
-      "code": "gm"
+      "pt-BR": "Gâmbia",
+      "code": "gm",
+      "en-US": "Gambia"
     },
     {
       "ddi": "995",
       "mask": "99 999 99 99",
       "name": "Georgia (საქართველო)",
-      "ptBr": "Geórgia (საქართველო)",
-      "code": "ge"
+      "pt-BR": "Geórgia (საქართველო)",
+      "code": "ge",
+      "en-US": "Georgia (საქართველო)"
     },
     {
       "ddi": "49",
       "mask": "99 999999",
       "name": "Germany (Deutschland)",
-      "ptBr": "Alemanha (Deutschland)",
-      "code": "de"
+      "pt-BR": "Alemanha (Deutschland)",
+      "code": "de",
+      "en-US": "Germany (Deutschland)"
     },
     {
       "ddi": "233",
       "mask": "99 999 9999",
       "name": "Ghana (Gaana)",
-      "ptBr": "Gana (Gaana)",
-      "code": "gh"
+      "pt-BR": "Gana (Gaana)",
+      "code": "gh",
+      "en-US": "Ghana (Gaana)"
     },
     {
       "ddi": "350",
       "mask": "999 99999",
       "name": "Gibraltar",
-      "ptBr": "Gibraltar",
-      "code": "gi"
+      "pt-BR": "Gibraltar",
+      "code": "gi",
+      "en-US": "Gibraltar"
     },
     {
       "ddi": "30",
       "mask": "99 9999 9999",
       "name": "Greece (Ελλάδα)",
-      "ptBr": "Grécia (Ελλάδα)",
-      "code": "gr"
+      "pt-BR": "Grécia (Ελλάδα)",
+      "code": "gr",
+      "en-US": "Greece (Ελλάδα)"
     },
     {
       "ddi": "299",
       "mask": "99 99 99",
       "name": "Greenland (Kalaallit Nunaat)",
-      "ptBr": "Groenlândia (Kalaallit Nunaat)",
-      "code": "gl"
+      "pt-BR": "Groenlândia (Kalaallit Nunaat)",
+      "code": "gl",
+      "en-US": "Greenland (Kalaallit Nunaat)"
     },
     {
       "ddi": "1473",
       "mask": "999-999-9999",
       "name": "Grenada",
-      "ptBr": "Granada",
+      "pt-BR": "Granada",
       "code": "gd",
+      "en-US": "Grenada"
     },
     {
       "ddi": "590",
       "mask": "999 99 99 99",
       "name": "Guadeloupe",
-      "ptBr": "Guadalupe",
-      "code": "gp"
+      "pt-BR": "Guadalupe",
+      "code": "gp",
+      "en-US": "Guadeloupe"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Guam",
-      "ptBr": "Guam",
-      "code": "as"
+      "pt-BR": "Guam",
+      "code": "as",
+      "en-US": "Guam"
     },
     {
       "ddi": "502",
       "mask": "9999 9999",
       "name": "Guatemala",
-      "ptBr": "Guatemala",
-      "code": "gt"
+      "pt-BR": "Guatemala",
+      "code": "gt",
+      "en-US": "Guatemala"
     },
     {
       "ddi": "44",
       "mask": "9999 999999",
       "name": "Guernsey",
-      "ptBr": "Guernsey",
-      "code": "gg"
+      "pt-BR": "Guernsey",
+      "code": "gg",
+      "en-US": "Guernsey"
     },
     {
       "ddi": "224",
       "mask": "99 99 99 99",
       "name": "Guinea (Guinée)",
-      "ptBr": "Guiné (Guinée)",
-      "code": "gn"
+      "pt-BR": "Guiné (Guinée)",
+      "code": "gn",
+      "en-US": "Guinea (Guinée)"
     },
     {
       "ddi": "245",
       "mask": "999 999 999",
       "name": "Guinea-Bissau (Guiné Bissau)",
-      "ptBr": "Guiné-Bissau (Guiné Bissau)",
-      "code": "gw"
+      "pt-BR": "Guiné-Bissau (Guiné Bissau)",
+      "code": "gw",
+      "en-US": "Guinea-Bissau (Guiné Bissau)"
     },
     {
       "ddi": "592",
       "mask": "999 9999",
       "name": "Guyana",
-      "ptBr": "Guiana",
-      "code": "gy"
+      "pt-BR": "Guiana",
+      "code": "gy",
+      "en-US": "Guyana"
     },
     {
       "ddi": "509",
       "mask": "99 99 9999",
       "name": "Haiti",
-      "ptBr": "Haiti",
-      "code": "ht"
+      "pt-BR": "Haiti",
+      "code": "ht",
+      "en-US": "Haiti"
     },
     {
       "ddi": "504",
       "mask": "9999-9999",
       "name": "Honduras",
-      "ptBr": "Honduras",
-      "code": "hn"
+      "pt-BR": "Honduras",
+      "code": "hn",
+      "en-US": "Honduras"
     },
     {
       "ddi": "852",
       "mask": "9999 9999",
       "name": "Hong Kong (香港)",
-      "ptBr": "Hong Kong (香港)",
-      "code": "hk"
+      "pt-BR": "Hong Kong (香港)",
+      "code": "hk",
+      "en-US": "Hong Kong (香港)"
     },
     {
       "ddi": "36",
       "mask": "9 999 9999",
       "name": "Hungary (Magyarország)",
-      "ptBr": "Hungria (Magyarország)",
-      "code": "hu"
+      "pt-BR": "Hungria (Magyarország)",
+      "code": "hu",
+      "en-US": "Hungary (Magyarország)"
     },
     {
       "ddi": "354",
       "mask": "999 9999",
       "name": "Iceland (Ísland)",
-      "ptBr": "Islândia (Ísland)",
-      "code": "is"
+      "pt-BR": "Islândia (Ísland)",
+      "code": "is",
+      "en-US": "Iceland (Ísland)"
     },
     {
       "ddi": "91",
       "mask": "99999 99999",
       "name": "India (भारत)",
-      "ptBr": "Índia (भारत)",
-      "code": "in"
+      "pt-BR": "Índia (भारत)",
+      "code": "in",
+      "en-US": "India (भारत)"
     },
     {
       "ddi": "62",
       "mask": "99 9999999",
       "name": "Indonesia",
-      "ptBr": "Indonésia",
-      "code": "id"
+      "pt-BR": "Indonésia",
+      "code": "id",
+      "en-US": "Indonesia"
     },
     {
       "ddi": "98",
       "mask": "99 9999 9999",
       "name": "Iran (ایران)",
-      "ptBr": "Irã (ایران)",
-      "code": "ir"
+      "pt-BR": "Irã (ایران)",
+      "code": "ir",
+      "en-US": "Iran (ایران)"
     },
     {
       "ddi": "964",
       "mask": "9 999 9999",
       "name": "Iraq (العراق)",
-      "ptBr": "Iraque (العراق)",
-      "code": "iq"
+      "pt-BR": "Iraque (العراق)",
+      "code": "iq",
+      "en-US": "Iraq (العراق)"
     },
     {
       "ddi": "353",
       "mask": "99 99999",
       "name": "Ireland",
-      "ptBr": "Irlanda",
-      "code": "ie"
+      "pt-BR": "Irlanda",
+      "code": "ie",
+      "en-US": "Ireland"
     },
     {
       "ddi": "44",
       "mask": "9999 999999",
       "name": "Isle of Man",
-      "ptBr": "Ilha de Man",
-      "code": "gg"
+      "pt-BR": "Ilha de Man",
+      "code": "gg",
+      "en-US": "Isle of Man"
     },
     {
       "ddi": "972",
       "mask": "9-999-9999",
       "name": "Israel (ישראל)",
-      "ptBr": "Israel (ישראל)",
-      "code": "il"
+      "pt-BR": "Israel (ישראל)",
+      "code": "il",
+      "en-US": "Israel (ישראל)"
     },
     {
       "ddi": "39",
       "mask": "99 9999 9999",
       "name": "Italy (Italia)",
-      "ptBr": "Itália (Italia)",
-      "code": "it"
+      "pt-BR": "Itália (Italia)",
+      "code": "it",
+      "en-US": "Italy (Italia)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Jamaica",
-      "ptBr": "Jamaica",
-      "code": "as"
+      "pt-BR": "Jamaica",
+      "code": "as",
+      "en-US": "Jamaica"
     },
     {
       "ddi": "81",
       "mask": "9-9999-9999",
       "name": "Japan (日本)",
-      "ptBr": "Japão (日本)",
-      "code": "jp"
+      "pt-BR": "Japão (日本)",
+      "code": "jp",
+      "en-US": "Japan (日本)"
     },
     {
       "ddi": "44",
       "mask": "9999 999999",
       "name": "Jersey",
-      "ptBr": "Jersey",
-      "code": "gg"
+      "pt-BR": "Jersey",
+      "code": "gg",
+      "en-US": "Jersey"
     },
     {
       "ddi": "962",
       "mask": "9 999 9999",
       "name": "Jordan (الأردن)",
-      "ptBr": "Jordânia (الأردن)",
-      "code": "jo"
+      "pt-BR": "Jordânia (الأردن)",
+      "code": "jo",
+      "en-US": "Jordan (الأردن)"
     },
     {
       "ddi": "7",
       "mask": "99999 9 99 99",
       "name": "Kazakhstan (Казахстан)",
-      "ptBr": "Cazaquistão (Казахстан)",
-      "code": "kz"
+      "pt-BR": "Cazaquistão (Казахстан)",
+      "code": "kz",
+      "en-US": "Kazakhstan (Казахстан)"
     },
     {
       "ddi": "254",
       "mask": "99 9999999",
       "name": "Kenya",
-      "ptBr": "Quênia",
-      "code": "ke"
+      "pt-BR": "Quênia",
+      "code": "ke",
+      "en-US": "Kenya"
     },
     {
       "ddi": "686",
       "mask": "99999",
       "name": "Kiribati",
-      "ptBr": "Kiribati",
-      "code": "ki"
+      "pt-BR": "Kiribati",
+      "code": "ki",
+      "en-US": "Kiribati"
     },
     {
       "ddi": "383",
       "mask": "99 999 999",
       "name": "Kosovo",
-      "ptBr": "Kosovo",
-      "code": "xk"
+      "pt-BR": "Kosovo",
+      "code": "xk",
+      "en-US": "Kosovo"
     },
     {
       "ddi": "965",
       "mask": "9999 9999",
       "name": "Kuwait (الكويت)",
-      "ptBr": "Kuwait (الكويت)",
-      "code": "kw"
+      "pt-BR": "Kuwait (الكويت)",
+      "code": "kw",
+      "en-US": "Kuwait (الكويت)"
     },
     {
       "ddi": "996",
       "mask": "999 999 999",
       "name": "Kyrgyzstan (Кыргызстан)",
-      "ptBr": "Quirguistão (Кыргызстан)",
-      "code": "kg"
+      "pt-BR": "Quirguistão (Кыргызстан)",
+      "code": "kg",
+      "en-US": "Kyrgyzstan (Кыргызстан)"
     },
     {
       "ddi": "856",
       "mask": "99 999 999",
       "name": "Laos (ລາວ)",
-      "ptBr": "Laos (ລາວ)",
-      "code": "la"
+      "pt-BR": "Laos (ລາວ)",
+      "code": "la",
+      "en-US": "Laos (ລາວ)"
     },
     {
       "ddi": "371",
       "mask": "99 999 999",
       "name": "Latvia (Latvija)",
-      "ptBr": "Letônia (Latvija)",
-      "code": "lv"
+      "pt-BR": "Letônia (Latvija)",
+      "code": "lv",
+      "en-US": "Latvia (Latvija)"
     },
     {
       "ddi": "961",
       "mask": "9 999 999",
       "name": "Lebanon (لبنان)",
-      "ptBr": "Líbano (لبنان)",
-      "code": "lb"
+      "pt-BR": "Líbano (لبنان)",
+      "code": "lb",
+      "en-US": "Lebanon (لبنان)"
     },
     {
       "ddi": "266",
       "mask": "9999 9999",
       "name": "Lesotho",
-      "ptBr": "Lesoto",
-      "code": "ls"
+      "pt-BR": "Lesoto",
+      "code": "ls",
+      "en-US": "Lesotho"
     },
     {
       "ddi": "231",
       "mask": "99 999 999",
       "name": "Liberia",
-      "ptBr": "Libéria",
-      "code": "lr"
+      "pt-BR": "Libéria",
+      "code": "lr",
+      "en-US": "Liberia"
     },
     {
       "ddi": "218",
       "mask": "99-9999999",
       "name": "Libya (ليبيا)",
-      "ptBr": "Líbia (ليبيا)",
-      "code": "ly"
+      "pt-BR": "Líbia (ليبيا)",
+      "code": "ly",
+      "en-US": "Libya (ليبيا)"
     },
     {
       "ddi": "423",
       "mask": "999 99 99",
       "name": "Liechtenstein",
-      "ptBr": "Liechtenstein",
-      "code": "li"
+      "pt-BR": "Liechtenstein",
+      "code": "li",
+      "en-US": "Liechtenstein"
     },
     {
       "ddi": "370",
       "mask": "999 99999",
       "name": "Lithuania (Lietuva)",
-      "ptBr": "Lituânia (Lietuva)",
-      "code": "lt"
+      "pt-BR": "Lituânia (Lietuva)",
+      "code": "lt",
+      "en-US": "Lithuania (Lietuva)"
     },
     {
       "ddi": "352",
       "mask": "99 99 99 99",
       "name": "Luxembourg",
-      "ptBr": "Luxemburgo",
-      "code": "lu"
+      "pt-BR": "Luxemburgo",
+      "code": "lu",
+      "en-US": "Luxembourg"
     },
     {
       "ddi": "853",
       "mask": "9999 9999",
       "name": "Macau (澳門)",
-      "ptBr": "Macau (澳門)",
-      "code": "mo"
+      "pt-BR": "Macau (澳門)",
+      "code": "mo",
+      "en-US": "Macau (澳門)"
     },
     {
       "ddi": "389",
       "mask": "9 999 9999",
       "name": "Macedonia (FYROM) (Македонија)",
-      "ptBr": "Macedônia (ARJM) (Македонија)",
-      "code": "mk"
+      "pt-BR": "Macedônia (ARJM) (Македонија)",
+      "code": "mk",
+      "en-US": "Macedonia (FYROM) (Македонија)"
     },
     {
       "ddi": "261",
       "mask": "99 99 999 99",
       "name": "Madagascar (Madagasikara)",
-      "ptBr": "Madagascar (Madagasikara)",
-      "code": "mg"
+      "pt-BR": "Madagascar (Madagasikara)",
+      "code": "mg",
+      "en-US": "Madagascar (Madagasikara)"
     },
     {
       "ddi": "265",
       "mask": "9 999 999",
       "name": "Malawi",
-      "ptBr": "Malawi",
-      "code": "mw"
+      "pt-BR": "Malawi",
+      "code": "mw",
+      "en-US": "Malawi"
     },
     {
       "ddi": "60",
       "mask": "9-9999 9999",
       "name": "Malaysia",
-      "ptBr": "Malásia",
-      "code": "my"
+      "pt-BR": "Malásia",
+      "code": "my",
+      "en-US": "Malaysia"
     },
     {
       "ddi": "960",
       "mask": "999-9999",
       "name": "Maldives",
-      "ptBr": "Maldivas",
-      "code": "mv"
+      "pt-BR": "Maldivas",
+      "code": "mv",
+      "en-US": "Maldives"
     },
     {
       "ddi": "223",
       "mask": "99 99 99 99",
       "name": "Mali",
-      "ptBr": "Mali",
-      "code": "ml"
+      "pt-BR": "Mali",
+      "code": "ml",
+      "en-US": "Mali"
     },
     {
       "ddi": "356",
       "mask": "9999 9999",
       "name": "Malta",
-      "ptBr": "Malta",
-      "code": "mt"
+      "pt-BR": "Malta",
+      "code": "mt",
+      "en-US": "Malta"
     },
     {
       "ddi": "692",
       "mask": "999-9999",
       "name": "Marshall Islands",
-      "ptBr": "Ilhas Marshall",
-      "code": "mh"
+      "pt-BR": "Ilhas Marshall",
+      "code": "mh",
+      "en-US": "Marshall Islands"
     },
     {
       "ddi": "596",
       "mask": "999 99 99 99",
       "name": "Martinique",
-      "ptBr": "Martinica",
-      "code": "mq"
+      "pt-BR": "Martinica",
+      "code": "mq",
+      "en-US": "Martinique"
     },
     {
       "ddi": "222",
       "mask": "99 99 99 99",
       "name": "Mauritania (موريتانيا)",
-      "ptBr": "Mauritânia (موريتانيا)",
-      "code": "mr"
+      "pt-BR": "Mauritânia (موريتانيا)",
+      "code": "mr",
+      "en-US": "Mauritania (موريتانيا)"
     },
     {
       "ddi": "230",
       "mask": "9999 9999",
       "name": "Mauritius (Moris)",
-      "ptBr": "Maurício (Moris)",
-      "code": "mu"
+      "pt-BR": "Maurício (Moris)",
+      "code": "mu",
+      "en-US": "Mauritius (Moris)"
     },
     {
       "ddi": "262",
       "mask": "999 99 99 99",
       "name": "Mayotte",
-      "ptBr": "Mayotte",
-      "code": "yt"
+      "pt-BR": "Mayotte",
+      "code": "yt",
+      "en-US": "Mayotte"
     },
     {
       "ddi": "52",
       "mask": "999 999 9999",
       "name": "Mexico (México)",
-      "ptBr": "México (México)",
-      "code": "mx"
+      "pt-BR": "México (México)",
+      "code": "mx",
+      "en-US": "Mexico (México)"
     },
     {
       "ddi": "691",
       "mask": "999 9999",
       "name": "Micronesia",
-      "ptBr": "Micronésia",
-      "code": "fm"
+      "pt-BR": "Micronésia",
+      "code": "fm",
+      "en-US": "Micronesia"
     },
     {
       "ddi": "373",
       "mask": "99 999 999",
       "name": "Moldova (Republica Moldova)",
-      "ptBr": "Moldávia (República Moldova)",
-      "code": "md"
+      "pt-BR": "Moldávia (República Moldova)",
+      "code": "md",
+      "en-US": "Moldova (Republica Moldova)"
     },
     {
       "ddi": "377",
       "mask": "99 99 99 99",
       "name": "Monaco",
-      "ptBr": "Mônaco",
-      "code": "mc"
+      "pt-BR": "Mônaco",
+      "code": "mc",
+      "en-US": "Monaco"
     },
     {
       "ddi": "976",
       "mask": "9999 9999",
       "name": "Mongolia (Монгол)",
-      "ptBr": "Mongólia (Монгол)",
-      "code": "mn"
+      "pt-BR": "Mongólia (Монгол)",
+      "code": "mn",
+      "en-US": "Mongolia (Монгол)"
     },
     {
       "ddi": "382",
       "mask": "99 999 999",
       "name": "Montenegro (Crna Gora)",
-      "ptBr": "Montenegro (Crna Gora)",
-      "code": "me"
+      "pt-BR": "Montenegro (Crna Gora)",
+      "code": "me",
+      "en-US": "Montenegro (Crna Gora)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Montserrat",
-      "ptBr": "Montserrat",
-      "code": "as"
+      "pt-BR": "Montserrat",
+      "code": "as",
+      "en-US": "Montserrat"
     },
     {
       "ddi": "212",
       "mask": "999-999999",
       "name": "Morocco (المغرب)",
-      "ptBr": "Marrocos (المغرب)",
-      "code": "ma"
+      "pt-BR": "Marrocos (المغرب)",
+      "code": "ma",
+      "en-US": "Morocco (المغرب)"
     },
     {
       "ddi": "258",
       "mask": "99 999 999",
       "name": "Mozambique (Moçambique)",
-      "ptBr": "Moçambique (Moçambique)",
-      "code": "mz"
+      "pt-BR": "Moçambique (Moçambique)",
+      "code": "mz",
+      "en-US": "Mozambique (Moçambique)"
     },
     {
       "ddi": "95",
       "mask": "9 999 999",
       "name": "Myanmar (Burma) (မြန်မာ)",
-      "ptBr": "Mianmar (Birmânia) (မြန်မာ)",
-      "code": "mm"
+      "pt-BR": "Mianmar (Birmânia) (မြန်မာ)",
+      "code": "mm",
+      "en-US": "Myanmar (Burma) (မြန်မာ)"
     },
     {
       "ddi": "264",
       "mask": "99 999 999",
       "name": "Namibia (Namibië)",
-      "ptBr": "Namíbia (Namibië)",
-      "code": "na"
+      "pt-BR": "Namíbia (Namibië)",
+      "code": "na",
+      "en-US": "Namibia (Namibië)"
     },
     {
       "ddi": "674",
       "mask": "999 9999",
       "name": "Nauru",
-      "ptBr": "Nauru",
-      "code": "nr"
+      "pt-BR": "Nauru",
+      "code": "nr",
+      "en-US": "Nauru"
     },
     {
       "ddi": "977",
       "mask": "9-9999999",
       "name": "Nepal (नेपाल)",
-      "ptBr": "Nepal (नेपाल)",
-      "code": "np"
+      "pt-BR": "Nepal (नेपाल)",
+      "code": "np",
+      "en-US": "Nepal (नेपाल)"
     },
     {
       "ddi": "31",
       "mask": "99 999 9999",
       "name": "Netherlands (Nederland)",
-      "ptBr": "Países Baixos (Nederland)",
-      "code": "nl"
+      "pt-BR": "Países Baixos (Nederland)",
+      "code": "nl",
+      "en-US": "Netherlands (Nederland)"
     },
     {
       "ddi": "687",
       "mask": "99.99.99",
       "name": "New Caledonia (Nouvelle-Calédonie)",
-      "ptBr": "Nova Caledônia (Nouvelle-Calédonie)",
-      "code": "nc"
+      "pt-BR": "Nova Caledônia (Nouvelle-Calédonie)",
+      "code": "nc",
+      "en-US": "New Caledonia (Nouvelle-Calédonie)"
     },
     {
       "ddi": "64",
       "mask": "9 999 9999",
       "name": "New Zealand",
-      "ptBr": "Nova Zelândia",
-      "code": "nz"
+      "pt-BR": "Nova Zelândia",
+      "code": "nz",
+      "en-US": "New Zealand"
     },
     {
       "ddi": "505",
       "mask": "9999 9999",
       "name": "Nicaragua",
-      "ptBr": "Nicarágua",
-      "code": "ni"
+      "pt-BR": "Nicarágua",
+      "code": "ni",
+      "en-US": "Nicaragua"
     },
     {
       "ddi": "227",
       "mask": "99 99 99 99",
       "name": "Niger (Nijar)",
-      "ptBr": "Níger (Nijar)",
-      "code": "ne"
+      "pt-BR": "Níger (Nijar)",
+      "code": "ne",
+      "en-US": "Niger (Nijar)"
     },
     {
       "ddi": "234",
       "mask": "9 999 9999",
       "name": "Nigeria",
-      "ptBr": "Nigéria",
-      "code": "ng"
+      "pt-BR": "Nigéria",
+      "code": "ng",
+      "en-US": "Nigeria"
     },
     {
       "ddi": "683",
       "mask": "9999",
       "name": "Niue",
-      "ptBr": "Niue",
-      "code": "nu"
+      "pt-BR": "Niue",
+      "code": "nu",
+      "en-US": "Niue"
     },
     {
       "ddi": "672",
       "mask": "99 9999",
       "name": "Norfolk Island",
-      "ptBr": "Ilha Norfolk",
-      "code": "nf"
+      "pt-BR": "Ilha Norfolk",
+      "code": "nf",
+      "en-US": "Norfolk Island"
     },
     {
       "ddi": "850",
       "mask": "9 999 9999",
       "name": "North Korea (조선 민주주의 인민 공화국)",
-      "ptBr": "Coreia do Norte (조선 민주주의 인민 공화국)",
-      "code": "kp"
+      "pt-BR": "Coreia do Norte (조선 민주주의 인민 공화국)",
+      "code": "kp",
+      "en-US": "North Korea (조선 민주주의 인민 공화국)"
     },
     {
       "ddi": "1670",
       "mask": "999-999-9999",
       "name": "Northern Mariana Islands",
-      "ptBr": "Ilhas Marianas do Norte",
-      "code": "mp"
+      "pt-BR": "Ilhas Marianas do Norte",
+      "code": "mp",
+      "en-US": "Northern Mariana Islands"
     },
     {
       "ddi": "47",
       "mask": "99 99 99 99",
       "name": "Norway (Norge)",
-      "ptBr": "Noruega (Norge)",
-      "code": "no"
+      "pt-BR": "Noruega (Norge)",
+      "code": "no",
+      "en-US": "Norway (Norge)"
     },
     {
       "ddi": "968",
       "mask": "99 999999",
       "name": "Oman (عُمان)",
-      "ptBr": "Omã (عُمان)",
-      "code": "om"
+      "pt-BR": "Omã (عُمان)",
+      "code": "om",
+      "en-US": "Oman (عُمان)"
     },
     {
       "ddi": "92",
       "mask": "99 99999999",
       "name": "Pakistan (پاکستان)",
-      "ptBr": "Paquistão (پاکستان)",
-      "code": "pk"
+      "pt-BR": "Paquistão (پاکستان)",
+      "code": "pk",
+      "en-US": "Pakistan (پاکستان)"
     },
     {
       "ddi": "680",
       "mask": "999 9999",
       "name": "Palau",
-      "ptBr": "Palau",
-      "code": "pw"
+      "pt-BR": "Palau",
+      "code": "pw",
+      "en-US": "Palau"
     },
     {
       "ddi": "970",
       "mask": "9 999 9999",
       "name": "Palestine (فلسطين)",
-      "ptBr": "Palestina (فلسطين)",
-      "code": "ps"
+      "pt-BR": "Palestina (فلسطين)",
+      "code": "ps",
+      "en-US": "Palestine (فلسطين)"
     },
     {
       "ddi": "507",
       "mask": "999-9999",
       "name": "Panama (Panamá)",
-      "ptBr": "Panamá (Panamá)",
-      "code": "pa"
+      "pt-BR": "Panamá (Panamá)",
+      "code": "pa",
+      "en-US": "Panama (Panamá)"
     },
     {
       "ddi": "675",
       "mask": "999 9999",
       "name": "Papua New Guinea",
-      "ptBr": "Papua Nova Guiné",
-      "code": "pg"
+      "pt-BR": "Papua Nova Guiné",
+      "code": "pg",
+      "en-US": "Papua New Guinea"
     },
     {
       "ddi": "595",
       "mask": "99 999 9999",
       "name": "Paraguay",
-      "ptBr": "Paraguai",
-      "code": "py"
+      "pt-BR": "Paraguai",
+      "code": "py",
+      "en-US": "Paraguay"
     },
     {
       "ddi": "51",
       "mask": "9 9999999",
       "name": "Peru (Perú)",
-      "ptBr": "Peru (Perú)",
-      "code": "pe"
+      "pt-BR": "Peru (Perú)",
+      "code": "pe",
+      "en-US": "Peru (Perú)"
     },
     {
       "ddi": "63",
       "mask": "9 9999 9999",
       "name": "Philippines",
-      "ptBr": "Filipinas",
-      "code": "ph"
+      "pt-BR": "Filipinas",
+      "code": "ph",
+      "en-US": "Philippines"
     },
     {
       "ddi": "48",
       "mask": "99 999 99 99",
       "name": "Poland (Polska)",
-      "ptBr": "Polônia (Polska)",
-      "code": "pl"
+      "pt-BR": "Polônia (Polska)",
+      "code": "pl",
+      "en-US": "Poland (Polska)"
     },
     {
       "ddi": "351",
       "mask": "99 999 9999",
       "name": "Portugal",
-      "ptBr": "Portugal",
-      "code": "pt"
+      "pt-BR": "Portugal",
+      "code": "pt",
+      "en-US": "Portugal"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Puerto Rico",
-      "ptBr": "Porto Rico",
-      "code": "as"
+      "pt-BR": "Porto Rico",
+      "code": "as",
+      "en-US": "Puerto Rico"
     },
     {
       "ddi": "974",
       "mask": "9999 9999",
       "name": "Qatar (قطر)",
-      "ptBr": "Catar (قطر)",
-      "code": "qa"
+      "pt-BR": "Catar (قطر)",
+      "code": "qa",
+      "en-US": "Qatar (قطر)"
     },
     {
       "ddi": "262",
       "mask": "999 99 99 99",
       "name": "Réunion (La Réunion)",
-      "ptBr": "Reunião (La Réunion)",
-      "code": "yt"
+      "pt-BR": "Reunião (La Réunion)",
+      "code": "yt",
+      "en-US": "Réunion (La Réunion)"
     },
     {
       "ddi": "40",
       "mask": "99 999 9999",
       "name": "Romania (România)",
-      "ptBr": "Romênia (România)",
-      "code": "ro"
+      "pt-BR": "Romênia (România)",
+      "code": "ro",
+      "en-US": "Romania (România)"
     },
     {
       "ddi": "7",
       "mask": "999 999-99-99",
       "name": "Russia (Россия)",
-      "ptBr": "Rússia (Россия)",
-      "code": "kz"
+      "pt-BR": "Rússia (Россия)",
+      "code": "kz",
+      "en-US": "Russia (Россия)"
     },
     {
       "ddi": "250",
       "mask": "999 999 999",
       "name": "Rwanda",
-      "ptBr": "Ruanda",
-      "code": "rw"
+      "pt-BR": "Ruanda",
+      "code": "rw",
+      "en-US": "Rwanda"
     },
     {
       "ddi": "590",
       "mask": "999 99 99 99",
       "name": "Saint Barthélemy (Saint-Barthélemy)",
-      "ptBr": "São Bartolomeu (Saint-Barthélemy)",
-      "code": "gp"
+      "pt-BR": "São Bartolomeu (Saint-Barthélemy)",
+      "code": "gp",
+      "en-US": "Saint Barthélemy (Saint-Barthélemy)"
     },
     {
       "ddi": "290",
       "mask": "99999",
       "name": "Saint Helena",
-      "ptBr": "Santa Helena",
-      "code": "sh"
+      "pt-BR": "Santa Helena",
+      "code": "sh",
+      "en-US": "Saint Helena"
     },
     {
       "ddi": "1869",
       "mask": "999-999-9999",
       "name": "Saint Kitts and Nevis",
-      "ptBr": "São Cristóvão e Nevis",
-      "code": "kn"
+      "pt-BR": "São Cristóvão e Nevis",
+      "code": "kn",
+      "en-US": "Saint Kitts and Nevis"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Saint Lucia",
-      "ptBr": "Santa Lúcia",
-      "code": "as"
+      "pt-BR": "Santa Lúcia",
+      "code": "as",
+      "en-US": "Saint Lucia"
     },
     {
       "ddi": "590",
       "mask": "999 99 99 99",
       "name": "Saint Martin (Saint-Martin (partie française))",
-      "ptBr": "Saint Martin (Saint-Martin (partie française))",
-      "code": "gp"
+      "pt-BR": "Saint Martin (Saint-Martin (partie française))",
+      "code": "gp",
+      "en-US": "Saint Martin (Saint-Martin (partie française))"
     },
     {
       "ddi": "508",
       "mask": "99 99 99",
       "name": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)",
-      "ptBr": "Saint Pierre e Miquelon (Saint-Pierre-et-Miquelon)",
-      "code": "pm"
+      "pt-BR": "Saint Pierre e Miquelon (Saint-Pierre-et-Miquelon)",
+      "code": "pm",
+      "en-US": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Saint Vincent and the Grenadines",
-      "ptBr": "São Vicente e Granadinas",
-      "code": "as"
+      "pt-BR": "São Vicente e Granadinas",
+      "code": "as",
+      "en-US": "Saint Vincent and the Grenadines"
     },
     {
       "ddi": "685",
       "mask": "99999",
       "name": "Samoa",
-      "ptBr": "Samoa",
-      "code": "ws"
+      "pt-BR": "Samoa",
+      "code": "ws",
+      "en-US": "Samoa"
     },
     {
       "ddi": "378",
       "mask": "9999 999999",
       "name": "San Marino",
-      "ptBr": "San Marino",
-      "code": "sm"
+      "pt-BR": "San Marino",
+      "code": "sm",
+      "en-US": "San Marino"
     },
     {
       "ddi": "239",
       "mask": "999 9999",
       "name": "São Tomé and Príncipe (São Tomé e Príncipe)",
-      "ptBr": "São Tomé e Príncipe (São Tomé e Príncipe)",
-      "code": "st"
+      "pt-BR": "São Tomé e Príncipe (São Tomé e Príncipe)",
+      "code": "st",
+      "en-US": "São Tomé and Príncipe (São Tomé e Príncipe)"
     },
     {
       "ddi": "966",
       "mask": "99 999 9999",
       "name": "Saudi Arabia (المملكة العربية السعودية)",
-      "ptBr": "Arábia Saudita (المملكة العربية السعودية)",
-      "code": "sa"
+      "pt-BR": "Arábia Saudita (المملكة العربية السعودية)",
+      "code": "sa",
+      "en-US": "Saudi Arabia (المملكة العربية السعودية)"
     },
     {
       "ddi": "221",
       "mask": "99 999 99 99",
       "name": "Senegal (Sénégal)",
-      "ptBr": "Senegal (Sénégal)",
-      "code": "sn"
+      "pt-BR": "Senegal (Sénégal)",
+      "code": "sn",
+      "en-US": "Senegal (Sénégal)"
     },
     {
       "ddi": "381",
       "mask": "99 999999",
       "name": "Serbia (Србија)",
-      "ptBr": "Sérvia (Србија)",
-      "code": "rs"
+      "pt-BR": "Sérvia (Србија)",
+      "code": "rs",
+      "en-US": "Serbia (Србија)"
     },
     {
       "ddi": "248",
       "mask": "9 999 999",
       "name": "Seychelles",
-      "ptBr": "Seychelles",
-      "code": "sc"
+      "pt-BR": "Seychelles",
+      "code": "sc",
+      "en-US": "Seychelles"
     },
     {
       "ddi": "232",
       "mask": "99 999999",
       "name": "Sierra Leone",
-      "ptBr": "Serra Leoa",
-      "code": "sl"
+      "pt-BR": "Serra Leoa",
+      "code": "sl",
+      "en-US": "Sierra Leone"
     },
     {
       "ddi": "65",
       "mask": "9999 9999",
       "name": "Singapore",
-      "ptBr": "Singapura",
-      "code": "sg"
+      "pt-BR": "Singapura",
+      "code": "sg",
+      "en-US": "Singapore"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Sint Maarten",
-      "ptBr": "Sint Maarten",
-      "code": "as"
+      "pt-BR": "Sint Maarten",
+      "code": "as",
+      "en-US": "Sint Maarten"
     },
     {
       "ddi": "421",
       "mask": "9/999 999 99",
       "name": "Slovakia (Slovensko)",
-      "ptBr": "Eslováquia (Slovensko)",
-      "code": "sk"
+      "pt-BR": "Eslováquia (Slovensko)",
+      "code": "sk",
+      "en-US": "Slovakia (Slovensko)"
     },
     {
       "ddi": "386",
       "mask": "9 999 99 99",
       "name": "Slovenia (Slovenija)",
-      "ptBr": "Eslovênia (Slovenija)",
-      "code": "si"
+      "pt-BR": "Eslovênia (Slovenija)",
+      "code": "si",
+      "en-US": "Slovenia (Slovenija)"
     },
     {
       "ddi": "677",
       "mask": "99999",
       "name": "Solomon Islands",
-      "ptBr": "Ilhas Salomão",
-      "code": "sb"
+      "pt-BR": "Ilhas Salomão",
+      "code": "sb",
+      "en-US": "Solomon Islands"
     },
     {
       "ddi": "252",
       "mask": "9 999999",
       "name": "Somalia (Soomaaliya)",
-      "ptBr": "Somália (Soomaaliya)",
-      "code": "so"
+      "pt-BR": "Somália (Soomaaliya)",
+      "code": "so",
+      "en-US": "Somalia (Soomaaliya)"
     },
     {
       "ddi": "27",
       "mask": "99 999 9999",
       "name": "South Africa",
-      "ptBr": "África do Sul",
-      "code": "za"
+      "pt-BR": "África do Sul",
+      "code": "za",
+      "en-US": "South Africa"
     },
     {
       "ddi": "82",
       "mask": "9-999-9999",
       "name": "South Korea (대한민국)",
-      "ptBr": "Coreia do Sul (대한민국)",
-      "code": "kr"
+      "pt-BR": "Coreia do Sul (대한민국)",
+      "code": "kr",
+      "en-US": "South Korea (대한민국)"
     },
     {
       "ddi": "211",
       "mask": "999 999 999",
       "name": "South Sudan (جنوب السودان)",
-      "ptBr": "Sudão do Sul (جنوب السودان)",
-      "code": "ss"
+      "pt-BR": "Sudão do Sul (جنوب السودان)",
+      "code": "ss",
+      "en-US": "South Sudan (جنوب السودان)"
     },
     {
       "ddi": "34",
       "mask": "999 99 99 99",
       "name": "Spain (España)",
-      "ptBr": "Espanha (España)",
-      "code": "es"
+      "pt-BR": "Espanha (España)",
+      "code": "es",
+      "en-US": "Spain (España)"
     },
     {
       "ddi": "94",
       "mask": "999 999 999",
       "name": "Sri Lanka (ශ්‍රී ලංකාව)",
-      "ptBr": "Sri Lanka (ශ්‍රී ලංකාව)",
-      "code": "lk"
+      "pt-BR": "Sri Lanka (ශ්‍රී ලංකාව)",
+      "code": "lk",
+      "en-US": "Sri Lanka (ශ්‍රී ලංකාව)"
     },
     {
       "ddi": "249",
       "mask": "99 999 9999",
       "name": "Sudan (السودان)",
-      "ptBr": "Sudão (السودان)",
-      "code": "sd"
+      "pt-BR": "Sudão (السودان)",
+      "code": "sd",
+      "en-US": "Sudan (السودان)"
     },
     {
       "ddi": "597",
       "mask": "999-999",
       "name": "Suriname",
-      "ptBr": "Suriname",
-      "code": "sr"
+      "pt-BR": "Suriname",
+      "code": "sr",
+      "en-US": "Suriname"
     },
     {
       "ddi": "47",
       "mask": "99 99 99 99",
       "name": "Svalbard and Jan Mayen",
-      "ptBr": "Svalbard e Jan Mayen",
-      "code": "no"
+      "pt-BR": "Svalbard e Jan Mayen",
+      "code": "no",
+      "en-US": "Svalbard and Jan Mayen"
     },
     {
       "ddi": "268",
       "mask": "9999 9999",
       "name": "Swaziland",
-      "ptBr": "Suazilândia",
-      "code": "sz"
+      "pt-BR": "Suazilândia",
+      "code": "sz",
+      "en-US": "Swaziland"
     },
     {
       "ddi": "46",
       "mask": "9 99 99 99",
       "name": "Sweden (Sverige)",
-      "ptBr": "Suécia (Sverige)",
-      "code": "se"
+      "pt-BR": "Suécia (Sverige)",
+      "code": "se",
+      "en-US": "Sweden (Sverige)"
     },
     {
       "ddi": "41",
       "mask": "99 999 99 99",
       "name": "Switzerland (Schweiz)",
-      "ptBr": "Suíça (Schweiz)",
-      "code": "ch"
+      "pt-BR": "Suíça (Schweiz)",
+      "code": "ch",
+      "en-US": "Switzerland (Schweiz)"
     },
     {
       "ddi": "963",
       "mask": "99 999 9999",
       "name": "Syria (سوريا)",
-      "ptBr": "Síria (سوريا)",
-      "code": "sy"
+      "pt-BR": "Síria (سوريا)",
+      "code": "sy",
+      "en-US": "Syria (سوريا)"
     },
     {
       "ddi": "886",
       "mask": "9 9999 9999",
       "name": "Taiwan (台灣)",
-      "ptBr": "Taiwan (台灣)",
-      "code": "tw"
+      "pt-BR": "Taiwan (台灣)",
+      "code": "tw",
+      "en-US": "Taiwan (台灣)"
     },
     {
       "ddi": "992",
       "mask": "999 99 9999",
       "name": "Tajikistan",
-      "ptBr": "Tajiquistão",
-      "code": "tj"
+      "pt-BR": "Tajiquistão",
+      "code": "tj",
+      "en-US": "Tajikistan"
     },
     {
       "ddi": "255",
       "mask": "99 999 9999",
       "name": "Tanzania",
-      "ptBr": "Tanzânia",
-      "code": "tz"
+      "pt-BR": "Tanzânia",
+      "code": "tz",
+      "en-US": "Tanzania"
     },
     {
       "ddi": "66",
       "mask": "9 999 9999",
       "name": "Thailand (ไทย)",
-      "ptBr": "Tailândia (ไทย)",
-      "code": "th"
+      "pt-BR": "Tailândia (ไทย)",
+      "code": "th",
+      "en-US": "Thailand (ไทย)"
     },
     {
       "ddi": "670",
       "mask": "999 9999",
       "name": "Timor-Leste",
-      "ptBr": "Timor-Leste",
-      "code": "tl"
+      "pt-BR": "Timor-Leste",
+      "code": "tl",
+      "en-US": "Timor-Leste"
     },
     {
       "ddi": "228",
       "mask": "99 99 99 99",
       "name": "Togo",
-      "ptBr": "Togo",
-      "code": "tg"
+      "pt-BR": "Togo",
+      "code": "tg",
+      "en-US": "Togo"
     },
     {
       "ddi": "690",
       "mask": "9999",
       "name": "Tokelau",
-      "ptBr": "Tokelau",
-      "code": "tk"
+      "pt-BR": "Tokelau",
+      "code": "tk",
+      "en-US": "Tokelau"
     },
     {
       "ddi": "676",
       "mask": "99-999",
       "name": "Tonga",
-      "ptBr": "Tonga",
-      "code": "to"
+      "pt-BR": "Tonga",
+      "code": "to",
+      "en-US": "Tonga"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "Trinidad and Tobago",
-      "ptBr": "Trinidad e Tobago",
-      "code": "as"
+      "pt-BR": "Trinidad e Tobago",
+      "code": "as",
+      "en-US": "Trinidad and Tobago"
     },
     {
       "ddi": "216",
       "mask": "99 999 999",
       "name": "Tunisia (تونس)",
-      "ptBr": "Tunísia (تونس)",
-      "code": "tn"
+      "pt-BR": "Tunísia (تونس)",
+      "code": "tn",
+      "en-US": "Tunisia (تونس)"
     },
     {
       "ddi": "90",
       "mask": "999 999 99 99",
       "name": "Turkey (Türkiye)",
-      "ptBr": "Turquia (Türkiye)",
-      "code": "tr"
+      "pt-BR": "Turquia (Türkiye)",
+      "code": "tr",
+      "en-US": "Turkey (Türkiye)"
     },
     {
       "ddi": "993",
       "mask": "99 99-99-99",
       "name": "Turkmenistan",
-      "ptBr": "Turcomenistão",
-      "code": "tm"
+      "pt-BR": "Turcomenistão",
+      "code": "tm",
+      "en-US": "Turkmenistan"
     },
     {
       "ddi": "1649",
       "mask": "999-999-9999",
       "name": "Turks and Caicos Islands",
-      "ptBr": "Ilhas Turks e Caicos",
-      "code": "tc"
+      "pt-BR": "Ilhas Turks e Caicos",
+      "code": "tc",
+      "en-US": "Turks and Caicos Islands"
     },
     {
       "ddi": "688",
       "mask": "99 999",
       "name": "Tuvalu",
-      "ptBr": "Tuvalu",
-      "code": "tv"
+      "pt-BR": "Tuvalu",
+      "code": "tv",
+      "en-US": "Tuvalu"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "U.S. Virgin Islands",
-      "ptBr": "Ilhas Virgens dos EUA",
-      "code": "as"
+      "pt-BR": "Ilhas Virgens dos EUA",
+      "code": "as",
+      "en-US": "U.S. Virgin Islands"
     },
     {
       "ddi": "256",
       "mask": "99 9999999",
       "name": "Uganda",
-      "ptBr": "Uganda",
-      "code": "ug"
+      "pt-BR": "Uganda",
+      "code": "ug",
+      "en-US": "Uganda"
     },
     {
       "ddi": "380",
       "mask": "9999 99999",
       "name": "Ukraine (Україна)",
-      "ptBr": "Ucrânia (Україна)",
-      "code": "ua"
+      "pt-BR": "Ucrânia (Україна)",
+      "code": "ua",
+      "en-US": "Ukraine (Україна)"
     },
     {
       "ddi": "971",
       "mask": "9 999 9999",
       "name": "United Arab Emirates (الإمارات العربية المتحدة)",
-      "ptBr": "Emirados Árabes Unidos (الإمارات العربية المتحدة)",
-      "code": "ae"
+      "pt-BR": "Emirados Árabes Unidos (الإمارات العربية المتحدة)",
+      "code": "ae",
+      "en-US": "United Arab Emirates (الإمارات العربية المتحدة)"
     },
     {
       "ddi": "44",
       "mask": "999 999 9999",
       "name": "United Kingdom",
-      "ptBr": "Reino Unido",
-      "code": "gg"
+      "pt-BR": "Reino Unido",
+      "code": "gg",
+      "en-US": "United Kingdom"
     },
     {
       "ddi": "1",
       "mask": "999-999-9999",
       "name": "United States",
-      "ptBr": "Estados Unidos",
-      "code": "us"
+      "pt-BR": "Estados Unidos",
+      "code": "us",
+      "en-US": "United States"
     },
     {
       "ddi": "598",
       "mask": "9999 9999",
       "name": "Uruguay",
-      "ptBr": "Uruguai",
-      "code": "uy"
+      "pt-BR": "Uruguai",
+      "code": "uy",
+      "en-US": "Uruguay"
     },
     {
       "ddi": "998",
       "mask": "99 999 99 99",
       "name": "Uzbekistan (Oʻzbekiston)",
-      "ptBr": "Uzbequistão (Oʻzbekiston)",
-      "code": "uz"
+      "pt-BR": "Uzbequistão (Oʻzbekiston)",
+      "code": "uz",
+      "en-US": "Uzbekistan (Oʻzbekiston)"
     },
     {
       "ddi": "678",
       "mask": "99999",
       "name": "Vanuatu",
-      "ptBr": "Vanuatu",
-      "code": "vu"
+      "pt-BR": "Vanuatu",
+      "code": "vu",
+      "en-US": "Vanuatu"
     },
     {
       "ddi": "39",
       "mask": "99 9999 9999",
       "name": "Vatican City (Città del Vaticano)",
-      "ptBr": "Cidade do Vaticano (Città del Vaticano)",
-      "code": "va"
+      "pt-BR": "Cidade do Vaticano (Città del Vaticano)",
+      "code": "va",
+      "en-US": "Vatican City (Città del Vaticano)"
     },
     {
       "ddi": "58",
       "mask": "999-9999999",
       "name": "Venezuela",
-      "ptBr": "Venezuela",
-      "code": "ve"
+      "pt-BR": "Venezuela",
+      "code": "ve",
+      "en-US": "Venezuela"
     },
     {
       "ddi": "84",
       "mask": "999 9999 999",
       "name": "Vietnam (Việt Nam)",
-      "ptBr": "Vietnã (Việt Nam)",
-      "code": "vn"
+      "pt-BR": "Vietnã (Việt Nam)",
+      "code": "vn",
+      "en-US": "Vietnam (Việt Nam)"
     },
     {
       "ddi": "681",
       "mask": "99 99 99",
       "name": "Wallis and Futuna",
-      "ptBr": "Wallis e Futuna",
-      "code": "wf"
+      "pt-BR": "Wallis e Futuna",
+      "code": "wf",
+      "en-US": "Wallis and Futuna"
     },
     {
       "ddi": "212",
       "mask": "9999-99999",
       "name": "Western Sahara (الصحراء الغربية)",
-      "ptBr": "Saara Ocidental (الصحراء الغربية)",
-      "code": "ma"
+      "pt-BR": "Saara Ocidental (الصحراء الغربية)",
+      "code": "ma",
+      "en-US": "Western Sahara (الصحراء الغربية)"
     },
     {
       "ddi": "967",
       "mask": "9 999 999",
       "name": "Yemen (اليمن)",
-      "ptBr": "Iêmen (اليمن)",
-      "code": "ye"
+      "pt-BR": "Iêmen (اليمن)",
+      "code": "ye",
+      "en-US": "Yemen (اليمن)"
     },
     {
       "ddi": "260",
       "mask": "999 999 999",
       "name": "Zambia",
-      "ptBr": "Zâmbia",
-      "code": "zm"
+      "pt-BR": "Zâmbia",
+      "code": "zm",
+      "en-US": "Zambia"
     },
     {
       "ddi": "263",
       "mask": "99 99999",
       "name": "Zimbabwe",
-      "ptBr": "Zimbábue",
-      "code": "zw"
+      "pt-BR": "Zimbábue",
+      "code": "zw",
+      "en-US": "Zimbabwe"
     },
     {
       "ddi": "358",
       "mask": "99 9999999",
       "name": "Åland Islands",
-      "ptBr": "Ilhas Aland",
-      "code": "fi"
+      "pt-BR": "Ilhas Aland",
+      "code": "fi",
+      "en-US": "Åland Islands"
     }
   ]
 
@@ -1774,7 +2017,7 @@ export class WorldPhoneInputComponent implements OnInit  {
       this.ddiChange.next("55");
     }
 
-    if (this.language !== 'ptBr') {
+    if (this.language !== 'pt-BR') {
       this.emptyFilterMessage = 'No country found';
     }
   }
