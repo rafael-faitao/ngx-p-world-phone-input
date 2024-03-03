@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { WorldPhoneInputModule } from './world-phone-input/world-phone-input.module';
+import { WorldPhoneInputModule } from 'projects/world-phone-input/src/public-api';
 
 @NgModule({
   declarations: [

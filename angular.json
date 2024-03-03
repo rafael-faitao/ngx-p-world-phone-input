@@ -99,6 +99,39 @@
           }
         }
       }
+    },
+    "world-phone-input": {
+      "projectType": "library",
+      "root": "projects/world-phone-input",
+      "sourceRoot": "projects/world-phone-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/world-phone-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/world-phone-input/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/world-phone-input/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/world-phone-input/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
