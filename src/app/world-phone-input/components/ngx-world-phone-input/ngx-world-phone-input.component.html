@@ -1,0 +1,18 @@
+<div class="phone-input container d-flex">
+    <p-dropdown id="countrypicker" [options]="countries" [(ngModel)]="currentCountry" (ngModelChange)="ddiChange.next(currentCountry.ddi)" optionLabel="name" [filter]="true" filterBy="name"  placeholder="Select a Country">
+        <ng-template pTemplate="selectedItem">
+            <div class="country-item country-item-value d-flex align-items-center" *ngIf="currentCountry">
+                <img src="assets/img/flags.png" [class]="'iti__flag iti__' + currentCountry.code.toLowerCase()" />
+                <span class="ml-1">{{currentCountry.ddi}}</span>
+            </div>
+        </ng-template>
+        <ng-template let-country pTemplate="item">
+            <div class="country-item d-flex d-flex align-items-center">
+                <img src="assets/img/flags.png" [class]="'iti__flag iti__' + country.code.toLowerCase()" />
+                <div class="ml-1">{{country.ptName}}</div>
+                <div class="ml-1 opacity-5">{{country.ddi}}</div>
+            </div>
+        </ng-template>
+    </p-dropdown>
+    <p-inputMask [autoClear]="true"  (onBlur)="checkPhoneOnBlur($event)" type="text" slotChar="" id="world-phone-input" [(ngModel)]="enteredPhone" [mask]="currentCountry.mask" [placeholder]="currentCountry.mask"></p-inputMask>
+</div>
